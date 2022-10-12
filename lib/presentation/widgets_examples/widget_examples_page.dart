@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:train/presentation/widgets/container_example.dart';
 
 class WidgetExamplePage extends StatelessWidget {
   const WidgetExamplePage({Key? key}) : super(key: key);
@@ -15,7 +16,7 @@ class WidgetExamplePage extends StatelessWidget {
         backgroundColor: Colors.pink,
         title: Text("meine app"),
       ),
-      body: Center(child: Text("hello duck")),
+      body: ContainerExample(),
     );
   }
 }
